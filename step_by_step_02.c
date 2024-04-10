@@ -1,0 +1,168 @@
+/*
+// C Program to print size of int, char, float, double
+#include <stdio.h>
+
+int main()
+{
+    printf("Size of char = %lu\n", sizeof(char)); //lu = long unsigned 부호없는 정수
+    printf("Size of int = %lu\n", sizeof(int));
+    printf("Size of float = %lu\n", sizeof(float));
+    printf("Size of double = %lu\n", sizeof(double));
+    return 0;   
+}
+// -------------------------------------------------------------------------------
+
+// C Program to swap two numbers
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    int tmp;
+    
+    num1 = 10, num2 = 20;
+    printf("[1] num1 = %d, num2 = %d\n", num1, num2);
+    
+    tmp = num1; //tmp 있어야 교환 가능
+    num1 = num2;
+    num2= tmp;
+    printf("[2] num1 = %d, num2 = %d", num1, num2);
+    
+    return 0;
+}
+// -------------------------------------------------------------------------------
+
+// C Program to check if number is odd or even
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("숫자 입력: ");
+    scanf("%d", &num);
+    
+    if (num%2 == 0){
+        printf("숫자는 짝수\n");
+    } else {
+        printf("숫자는 홀수\n");
+    }
+    
+    return 0;
+}
+// -------------------------------------------------------------------------------
+
+// C Program to find minimum numbers from entered numbers
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+    int n;
+    int min_num = INT_MAX; //가장 큰 int로 지정
+    int num;
+    int i;
+    
+    printf("몇 개의 숫자를 입력?");
+    scanf("%d", &n);
+    
+    printf("%d개의 숫자를 입력: ", n);
+    
+    for (i=1; i<=n; i++) {
+        scanf("%d", &num);
+        
+        if(num<min_num){
+            min_num = num;
+        }
+    }
+    printf("가장 작은 수는: %d", min_num);
+    
+    return 0;
+    
+}
+// -------------------------------------------------------------------------------
+
+// C Program to check if given character is digit or alphabet
+#include <stdio.h>
+
+int main(){
+    char ch;
+    
+    printf("캐릭터 하나 입력: ");
+    scanf("%c", &ch);
+    
+    if(ch >= '0' && ch <= '9') //하나의 문자열 character는 '' 작은 따옴표로 표시
+        printf("입력한 캐릭터는 숫자\n");
+        
+    else if ( (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+        printf("입력한 캐릭터는 문자\n");
+        
+    else
+        printf("입력한 캐릭터는 숫자나 문자가 아님.\n");
+}
+// -------------------------------------------------------------------------------
+
+// tutorial 추가
+#include <stdio.h>
+int main(){
+    int num;
+    num = 5;
+    printf("%d\n", num);
+    printf("%p", (void *)&num); //주소값 출력
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int n;
+    
+    for (n=1; n<=100; n++){
+        printf("%d", n);
+    }
+    return 0;
+}
+
+#include <stdio.h>
+
+int main(){
+    int n;
+    n=1;
+    
+    while(n<100){
+        printf("%d", n);
+        n = n+1;
+    }
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int i;
+    double number, multi = 1;
+    
+    for (i=1; i<=4; ++i){
+        printf("곱할 %d번째 n 입력(양수)", i);
+        scanf("%lf", &number);
+        
+        if (number < 0.0)
+            break;
+        
+        multi *= number;
+    }
+    printf("모든 n의 곱: %lf", multi);
+    return 0;
+}
+
+#include <stdio.h>
+int main (){
+    int number;
+    
+    for (number=5; number>0; number--){
+        if (number==3){
+            printf("pass\n");
+            continue;
+        }
+        printf("%d\n", number);
+    }
+    return 0;
+}
+*/
