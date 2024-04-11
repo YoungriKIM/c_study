@@ -24,7 +24,6 @@ int main(){
     return 0;
 }
 // -----------------------------------------------------
-*/
 
 // C Program to convert decimal number to binary number
 #include <stdio.h>
@@ -50,3 +49,72 @@ int main(){
     printf("\n");
     return 0;
 }   
+
+// -----------------------------------------------------
+// 1차원 배열 연습
+#include <stdio.h>
+int main(){
+    int numbers[3]; //정수 5개 넣을 배열
+    int i;
+    
+    printf("Enter 3 numbers: \n");
+    for (i=0; i<3; i++){
+        scanf("%d", &numbers[i]);
+    }
+    
+    // 입력받는 정수 3개 출력
+    // printf("Entered numbers: \n");
+    // for (i=0; i<3; i++){
+    //     printf("%d\n", numbers[i]);
+    // }
+    
+    printf("=>> %d\n", numbers[1]);
+    printf("=>> %d\n", *(numbers+1));
+    printf("=>> %d\n", *&numbers[1]);
+
+    return 0;
+}
+// -----------------------------------------------------
+
+//2차원 배열 연습
+#include <stdio.h>
+
+int main(){
+    int matrix[2][2];
+    int i, j;
+    
+    printf("Enter 2X2 size int: \n");
+    for (i=0; i<2; i++) {
+        for (j=0; j<2; j++) {
+            printf("[%d][%d] value: ", i+1, j+1);
+            scanf("%d", &matrix[i][j]);
+        }}
+        
+    printf("Entered matrix: \n");
+    for (i=0; i<2; i++) {
+        for (j=0; j<2; j++) {
+            printf("[%d][%d]: %d\n", i+1, j+1, matrix[i][j]);
+        }}
+        
+    printf("%d\n", *(&*matrix[0]+1));
+    printf("%d", *matrix[0]+0);
+
+    return 0;
+}
+// -----------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
