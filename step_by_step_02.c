@@ -1,5 +1,5 @@
 /*
-// C Program to print size of int, char, float, double
+// int, char, float, double의 byte 값 구하기
 #include <stdio.h>
 
 int main()
@@ -12,7 +12,7 @@ int main()
 }
 // -------------------------------------------------------------------------------
 
-// C Program to swap two numbers
+// 두 숫자 바꾸기
 #include <stdio.h>
 
 int main()
@@ -32,7 +32,7 @@ int main()
 }
 // -------------------------------------------------------------------------------
 
-// C Program to check if number is odd or even
+// 들어온 숫자 짝수, 홀수 확인
 #include <stdio.h>
 
 int main()
@@ -51,7 +51,7 @@ int main()
 }
 // -------------------------------------------------------------------------------
 
-// C Program to find minimum numbers from entered numbers
+// 여러 숫자 중 가장 작은 수 구하기
 #include <stdio.h>
 #include <limits.h>
 
@@ -81,7 +81,7 @@ int main()
 }
 // -------------------------------------------------------------------------------
 
-// C Program to check if given character is digit or alphabet
+// 캐릭터가 알파벳인지 숫자인지 구하기
 #include <stdio.h>
 
 int main(){
@@ -100,69 +100,4 @@ int main(){
         printf("입력한 캐릭터는 숫자나 문자가 아님.\n");
 }
 // -------------------------------------------------------------------------------
-
-// tutorial 추가
-#include <stdio.h>
-int main(){
-    int num;
-    num = 5;
-    printf("%d\n", num);
-    printf("%p", (void *)&num); //주소값 출력
-    return 0;
-}
-
-#include <stdio.h>
-int main(){
-    int n;
-    
-    for (n=1; n<=100; n++){
-        printf("%d", n);
-    }
-    return 0;
-}
-
-#include <stdio.h>
-
-int main(){
-    int n;
-    n=1;
-    
-    while(n<100){
-        printf("%d", n);
-        n = n+1;
-    }
-    return 0;
-}
-
-#include <stdio.h>
-int main(){
-    int i;
-    double number, multi = 1;
-    
-    for (i=1; i<=4; ++i){
-        printf("곱할 %d번째 n 입력(양수)", i);
-        scanf("%lf", &number);
-        
-        if (number < 0.0)
-            break;
-        
-        multi *= number;
-    }
-    printf("모든 n의 곱: %lf", multi);
-    return 0;
-}
-
-#include <stdio.h>
-int main (){
-    int number;
-    
-    for (number=5; number>0; number--){
-        if (number==3){
-            printf("pass\n");
-            continue;
-        }
-        printf("%d\n", number);
-    }
-    return 0;
-}
 */
