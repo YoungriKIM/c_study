@@ -1,6 +1,6 @@
 /*
 #include <stdio.h>
-C Program to Print an Integer entered by user
+// 입력한 정수 출력하기
 int main ()
 {
   int num;
@@ -11,7 +11,7 @@ int main ()
 }
 // ---------------------------------------------------------------------
 
-C Program to add two numbers
+// 두 수 더하기
 int main()
 {
     int num1, num2, sum;
@@ -25,7 +25,7 @@ int main()
 }
 // ---------------------------------------------------------------------
 
-C Program to multiply two numbers
+// 두 수 곱하기
 int main()
 {
     int num1, num2, mul;
@@ -37,7 +37,7 @@ int main()
 }
 // ---------------------------------------------------------------------
 
-C Program to calculate average of numbers
+# 여러 숫자 평균내기
 int main()
 {
     int num, sum, i;
@@ -57,7 +57,7 @@ int main()
 }
 // ---------------------------------------------------------------------
 
-C Program to print ASCII value of character
+# 문자의 아스키코드 출력하기
 #include <stdio.h>
 
 int main()
@@ -71,9 +71,8 @@ int main()
     return 0;
 }
 // ---------------------------------------------------------------------
-*/
 
-C Program to print quotient and remainder
+//두 수를 나누고 몫과 나머지 구하기
 #include <stdio.h>
 
 int main()
@@ -95,24 +94,4 @@ int main()
     return 0;
 }
 // ---------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
