@@ -1,6 +1,6 @@
 /*
 // -----------------------------------------------------
-// C Program to reverse string entered from command line arguments
+// 입력받은 문자열 뒤집기
 #include <stdio.h>
 #include <string.h>
 #define MAX_LENGTH 100
@@ -25,7 +25,7 @@ int main(){
 }
 // -----------------------------------------------------
 
-// C Program to convert decimal number to binary number
+// 10진수를 2진수로 바꾸기
 #include <stdio.h>
 
 void decimalToBinary(int num){
